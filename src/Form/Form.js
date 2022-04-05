@@ -47,7 +47,7 @@ function Form({ currentId, setCurrentId }) {
           name="title"
           placeholder="title"
           required
-          pattern="/^\S*$/"
+          pattern="^\S*$"
           value={postData.title}
           onChange={(e) => setPostData({ ...postData, title: e.target.value })}
         />
