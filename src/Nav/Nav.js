@@ -19,6 +19,7 @@ function Nav() {
   const handleSignOut = () => {
     cachedUser = null;
     dispatch(signOut());
+    window.location.reload(false);
   };
 
   const handleGoToAuth = () => {

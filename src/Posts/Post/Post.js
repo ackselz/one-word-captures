@@ -43,7 +43,7 @@ function Post({ post, setCurrentId, user }) {
             <span key={i}>#{tag} </span>
           ))}
         </p>
-        <p className="card-text">{post.message}</p>
+        <p className="card-text">{post.title}</p>
       </div>
       <div className="card-footer">
         <div className="card-likes">
