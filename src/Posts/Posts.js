@@ -6,7 +6,9 @@ function Posts({ setCurrentId }) {
   const posts = useSelector((state) => state.posts);
   const user = useSelector((state) => state.user);
 
-  return !posts.length ? null : (
+  return !posts.length ? (
+    <p>LOADING...</p>
+  ) : (
     <>
       {posts.map((post) => (
         <Post
