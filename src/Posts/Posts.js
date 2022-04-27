@@ -7,7 +7,12 @@ function Posts({ setCurrentId }) {
   const user = useSelector((state) => state.user);
 
   return !posts.length ? (
-    <p>LOADING...</p>
+    <div className="card">
+      <img
+        src="https://flevix.com/wp-content/uploads/2019/07/Curve-Loading.gif"
+        alt=""
+      />
+    </div>
   ) : (
     <>
       {posts.map((post) => (
