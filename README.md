@@ -1,5 +1,7 @@
 # One-Word-Captures
 
+![onewordcaptures](https://user-images.githubusercontent.com/88138479/165345887-1363a97c-0bb9-421f-a3b4-0a7bceebf014.png)
+
 One-Word-Captures is a concept for a social media platform built for artists. It encourages artists to capture the powerful images or produce meaningful drawings and share it with the world. The one-word caption is simple but powerful: easy to understand for the layperson, but conveys a strong interpretation of each image.
 
 [CLICK HERE TO GO TO THE APP](https://dynamic-semifreddo-ddc93c.netlify.app/posts) (Data fetching is still being optimised, do give it some time to load!)
