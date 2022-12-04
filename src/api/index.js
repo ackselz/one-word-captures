@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const url = "https://one-word-captures-backend.herokuapp.com";
+const url = "https://one-word-captures.fly.dev";
 
 axios.defaults.withCredentials = true;
 
